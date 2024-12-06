@@ -1,0 +1,9 @@
+{% if content %}
+  <div {{ attributes.addClass('one-column__container') }}>
+  {% if content.main %}
+    <div {{ region_attributes.main.addClass('fn-column') }}>
+      {{ content.main }}
+    </div>
+  {% endif %}
+  </div>
+{% endif %}

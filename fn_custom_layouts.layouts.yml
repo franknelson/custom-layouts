@@ -1,0 +1,25 @@
+one_column:
+  label: 'One column'
+  category: 'fn'
+  template: layouts/one-column
+  default_region: main
+  icon_map:
+    - [main]
+  regions:
+    main:
+      label: Main content
+two_column:
+  label: 'Two column'
+  category: 'fn'
+  template: layouts/two-column
+  default_region: col1
+  icon_map:
+    - [header]
+    - [col1, col2]
+  regions:
+    header:
+      label: Header
+    col1:
+      label: Column 1
+    col2:
+      label: Column 2
